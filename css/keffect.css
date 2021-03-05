@@ -1,0 +1,91 @@
+*[keffect] {
+    opacity: 0;
+}
+
+.keFade {
+    animation-name: keFade;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+@keyframes keFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.keFadeToUp {
+    animation-name: keFadeToUp;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+@keyframes keFadeToUp {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.keFadeToDown {
+    animation-name: keFadeToDown;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+@keyframes keFadeToDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.keFadeToRight {
+    animation-name: keFadeToRight;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+@keyframes keFadeToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.keFadeToLeft {
+    animation-name: keFadeToLeft;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+@keyframes keFadeToLeft {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
